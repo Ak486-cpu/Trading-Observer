@@ -1,3 +1,9 @@
+import sys
+import pkg_resources
+print("Python version:", sys.version)
+print("Installed packages:")
+for d in pkg_resources.working_set:
+    print(d.project_name, d.version)
 """
 Trading MVP App (Streamlit)
 
@@ -306,3 +312,4 @@ st.markdown(
 )
 
 # End of file
+
