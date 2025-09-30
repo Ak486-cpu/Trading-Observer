@@ -9,6 +9,8 @@ matplotlib==3.9.2
 plotly==5.24.1
 joblib==1.4.2
 setuptools>=68.0.0
+pip install -r requirements.txt
+streamlit run trading_mvp_app.py
 
 
 
